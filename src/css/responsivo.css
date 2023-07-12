@@ -1,0 +1,38 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 180px;
+    }
+
+    .selecao-de-agentes{
+        flex-direction: column-reverse;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-agentes .personagens{
+        margin-top: 37px;
+    }
+
+    .selecao-de-agentes .personagens .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-agentes .personagens .lista-de-personagens{
+        gap: 9px;
+    }
+
+    .selecao-de-agentes .personagens img{
+        width: 80px;
+    }
+
+    .agente-selecionado .agente-grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .agente-selecionado .descricao-agente{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
